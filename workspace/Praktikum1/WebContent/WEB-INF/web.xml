@@ -19,4 +19,24 @@
     <servlet-name>Loendur</servlet-name>
     <url-pattern>/Loendur</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Vastaja</display-name>
+    <servlet-name>Vastaja</servlet-name>
+    <servlet-class>Praktikum1.Vastaja</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Vastaja</servlet-name>
+    <url-pattern>/Vastaja</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Excel</display-name>
+    <servlet-name>Excel</servlet-name>
+    <servlet-class>Praktikum1.Excel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Excel</servlet-name>
+    <url-pattern>/Excel</url-pattern>
+  </servlet-mapping>
 </web-app>
