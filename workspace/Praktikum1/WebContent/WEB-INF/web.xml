@@ -39,4 +39,14 @@
     <servlet-name>Excel</servlet-name>
     <url-pattern>/Excel</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DateToPNG</display-name>
+    <servlet-name>DateToPNG</servlet-name>
+    <servlet-class>Praktikum1.DateToPNG</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DateToPNG</servlet-name>
+    <url-pattern>/DateToPNG</url-pattern>
+  </servlet-mapping>
 </web-app>
