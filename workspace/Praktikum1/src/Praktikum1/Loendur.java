@@ -9,23 +9,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- * Servlet implementation class Loendur
- */
+
 public class Loendur extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public Loendur() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession(true);
 		   response.setContentType("text/html");
@@ -47,7 +35,7 @@ public class Loendur extends HttpServlet {
 		   "<TABLE BORDER=1 ALIGN=LEFT>\n"
 		   + "<TR BGCOLOR=\"#FFAD00\">\n" 
 		   +"  <TH>Info<TH>Sessioonide Arv\n" 
-		   +"<TR>\n" +" <TD>Kokku Sessioone\n" +
+		   +"<TR>\n" +" <TD>Kokku sessioone\n" +
 		   "<TD>" + count + "\n" +
 		   "</TABLE>\n" 
 		   +"</BODY></HTML>" );
